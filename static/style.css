@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* background-color: black; */
+    /* color: white; */
+}
+/* header */
+header{
+ background: center / cover no-repeat url("../static/dance.png"); 
+ background-size: 100vw;
+width: 100vw;
+height: 80vh;
+background-position: center;
+margin-top: -61vh;
+color: white;
+}
+.left{
+    margin-top: 354px;
+    display: grid;
+    grid-template-columns: 15vw 15vw;
+}
+
+
+.sign{
+    color:white;
+    border: 2px solid red;
+    background-color: red;
+    border-radius: 7px;
+    width: 13vw;
+    height: 7vh;
+    margin-top: 2vh;
+    margin-left: 1vw;
+}
+.left a{
+    color: white;
+    margin-left: 4vw;
+}
+#class{
+margin-left:   1vw;
+margin-top: 1vh;
+height: 4vh;
+width: 13vw;
+}
+nav{
+    color:white;
+    background-color: black;
+    text-decoration: none;
+    list-style: none;
+    width: 14vw;
+    margin-left: 2vw;
+    margin-top: 2vh;
+    
+}
+nav ul li{
+list-style: none;
+text-decoration: none;
+}
+.right{
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+.dance{
+    margin-top: -1vh;
+    margin-right:  -4vw; 
+    font-size: 70px;
+    color: black;
+}
+.TV{
+    margin-top: -13vh;
+    margin-right:  12vw; 
+    font-size: 70px;
+    color: red;
+}
+.m-01{
+    color: black;
+    font-size: 22px;
+    font-weight: 900;
+}
+.btn_02{
+    border: 2px solid red;
+    background-color: red;
+    color:white;
+    border-radius: 5px;
+    height: 7vh;
+    margin-right: 7vw;
+    margin-top: 11vh;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+/* main */
+.step{
+    font-size: 5vw;
+    margin-left: 2vw;
+    margin-top: 18vh;
+}
+.you{
+    margin-left: 3vw;
+    margin-top: 2vh;
+    font-size: 19px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,23vw);
+    grid-gap: 17px;
+    margin-left: 2vw;
+    margin-top: 18vh;
+}
+.new{
+    border: 2px solid black;
+    height:33vh ;
+    border-radius: 10px;
+    background-color:#eeee5e;
+}
+.beginer{
+    border: 2px solid black;
+    height:33vh ;    
+    border-radius: 10px;
+    background-color:#caf474;
+}
+.intermediater{
+    border: 2px solid black;
+    border-radius: 10px;
+    height:33vh ;
+    background-color:#b8ec67;
+}
+.advance{
+    border: 2px solid black;
+    border-radius: 10px;
+    height:33vh;
+    background-color: #60dd60;
+}
+.btn_03{
+    margin-left: 3vw;
+    margin-top: 4vh;
+    width: 11vw;
+    height: 5vh;
+    font-size: 2vw;
+    font-weight: bold;
+}
+.slide{
+    font-size: 25px;
+    font-weight: 900;
+    margin-left: 2vw;
+    margin-top:2vh;
+}
+h1{
+    font-size: 71px;
+    margin-top: 18vh;
+    margin-left: 5vw;
+    font-weight: bold;
+}
+.s_01{
+    font-size: 27px;
+    font-weight: 500;
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+.flex{
+    display: grid;
+    grid-template-columns: 42vw 45vw;
+    margin-left: 5vw;
+    grid-gap: 3vw;
+}
+.monthly{
+    background-color: rgb(223, 219, 219);
+    height: 75vh;
+    margin-top: 39vh;
+    border-radius: 22px;
+}
+.annualy{
+    background-color:#baf7ba;
+    height:85vh;
+    margin-top: 29vh;
+    border-radius: 22px;
+}
+h3{
+    font-size: 27px;
+    margin-left: 3vw;
+    margin-top: 5vh ;
+}
+.pencil{
+    font-size: 125px;
+    margin-left: 7vw;
+    margin-top: 10vh;
+    font-weight: bolder;
+
+}
+.pen{
+    font-size: 32px;
+    font-weight: 900;
+}
+.tri{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 3vw;
+    margin-top: 6vh;
+}
+.btn_04{
+    width: 34vw;
+    height: 12vh;
+    margin-top: 13vh;
+    margin-left: 4vw;
+    font-size: 20px;
+    font-weight: 900;
+}
+.plan{
+    color:#baf7ba;
+    margin-left: 14vw;
+    margin-top: 2vh;
+    font-size:23px;
+    font-weight: 900;
+}
+.bg{
+    background-color: #60dd60;
+    height: 10vh;
+}
+#bule{
+    color: white;
+    background-color: blue;
+}

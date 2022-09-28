@@ -1,0 +1,122 @@
+// INSERTING DATA IN MONGO DB
+
+// DATA BASE COMMAND
+ view all command
+show dbs
+
+create a new or switch database
+use dbname
+
+view current database
+db
+
+Delete database
+db.dropDatabase()
+
+//COLLECTION COMMAND
+show collection
+show collection
+
+create a collection named 'comments'
+db.createCollection('comments')
+
+drop a collection named 'comments'
+db.comment.drop()
+
+//ROW (DOCUMENT) COMMAND
+show all rows in a collaction
+db.commnents.find()
+
+show all rows in a collaction (prettified)
+db.comment.find().prettty()
+
+find the frist row matching the object
+db.comments.findone({name:'omkar})
+
+insert one row
+db.comment.insert({
+    'name':'omkar',
+    'lang':'java',
+})
+
+//INERT MANY ROWS
+db.comment.insertMany([
+    {'name':'rohit',
+    'lang':'js',
+    'mark':'58',
+    },
+    {'name':'yash',
+    'lang':'pyton',
+    'mark':'34',
+    },
+    {
+        'nmae':'prtam',
+        'lang':'c++',
+        'mark':'78',
+    }
+])
+
+//TO FIND THE OPTION VALUE
+> db.comment.find({"mark" :{$gt:"58"}})
+
+serach in mongodb databse
+db.comments.find({lang:'java'})
+
+// TO OPTION TRUE OR FLASE
+db.comment.find({
+    $or:[{"mark":{$lt:"58"}},{"lang":"js"}]
+}) // FOR THE COMPLEX FROM
+
+
+limit the number of rows in output
+db.commrents.find().limit(2)
+
+count the number of rows in the output
+db.comments.find().count()
+
+//UPDATE ROWS
+db.comments.update({name:'prtam'},
+{'name':'pritam',
+}, {upset:true})
+ or
+ > db.comment.UpDateOne({"nmae":"prtam"},{$set:{"nmae":"pritam"}})
+
+//MONGODB INCREMENT OPERATOR
+db.comment.update({name:'omkar'},
+{$inc:{
+    member_since:2
+}})
+
+// DELATE ROW
+db.comments.remove({name:'harry'})
+<!DOCTYPE html>
+<html lang="en">
+     
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP</title>
+    <link rel="stylesheet" href="../static/sign.css">
+</head>
+     
+<body>
+    <div class="login">
+        <header>
+            <h1>SIGN UP</h1>
+        </header>
+        <img src="https://uxwing.com/wp-content/themes/uxwing/download/34-crime-security-military-law/profile-protection.svg"
+            class="img" alt="Erro img">
+        <div class="form" action="/contact", method="post">
+            <h4>Create your Account</h4>
+            <input type="text" name="Name" placeholder="your Name" class="input" id=""> <br>
+            <input type="email" name="Email" placeholder="Enter your email" class="input" id=""> <br>
+            <input type="password" name="Password" class="input" placeholder="Enter the password" id=""> <br>
+            <input type="text" name="moblie" class="input" placeholder="Enter the mobile number" id=""> <br>
+            <button class="btn" method="post", action="/sign">Submit</button>
+        </div>
+
+    </div>
+</body>
+     
+</html>

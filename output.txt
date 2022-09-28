@@ -1,0 +1,3 @@
+The name of client is Name,Email your Email,password,and Gender,mobi
+db.comment.insertMany([{Name:"iPhone14",price:"85000Rs",sold:"2334",avalable:"5000"},
+{Name:"iphone13,price:"60000",sold:"70000",avalable:"300000"}])

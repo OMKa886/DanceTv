@@ -1,0 +1,166 @@
+@media screen and (max-width: 710px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  /* header */
+  /* left seaction */
+  .left {
+    background-size: 100vw;
+  }
+
+  .sign{
+    margin-top: 26vh;
+    width: 19vw;
+    height: 3vh;
+  }
+  
+  .left a{
+    font-size: 2vw;
+    margin-top: 26vh;
+  }
+
+  #class{
+    margin-left: 5vw;
+    margin-top: 13vh;
+    height: 3vh;
+    width: 19vw;
+  }
+ #para{
+  width: 26vw;
+  margin-left: 11vw;
+  margin-top: 13vh;
+}
+/* right seaction  */
+ .dance{
+  font-size: 8vw;
+ }
+ .TV{
+  font-size: 8vw;
+  margin-left: 3vw;
+ }
+ .m-01{
+  font-size: 3vw;
+ }
+ .btn_02{
+  margin-top: 3vh;
+  height: 4vh;
+  font-size: 3vw;
+  width: 45vw;
+ }
+  /*main  */
+  .levels{
+    margin-top: -34vh;
+  }
+  .step {
+    margin-left: 6vw;
+  }
+
+  .you {
+    margin-left: 6vw;
+  }
+
+  .grid {
+    /* grid-row-end: 3; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 6vw;
+  }
+
+  .new {
+    border: 2px solid black;
+    height: 23vh;
+    border-radius: 10px;
+    background-color: #eeee5e;
+    width: 93vw;
+  }
+
+
+  .beginer {
+    border: 2px solid black;
+    height: 23vh;
+    width: 93vw;
+  }
+
+  .intermediater {
+    border: 2px solid black;
+    height: 23vh;
+    width: 93vw;
+  }
+
+  .advance {
+    border: 2px solid black;
+    height: 23vh;
+    width: 93vw;
+  }
+
+  .btn_03 {
+    font-size: 4vw;
+    width: 38vw;
+  }
+
+  .slider {
+    font-size: 4vw;
+  }
+
+
+  h1 {
+    font-size: 10vw;
+    margin-top: 10vh;
+  }
+
+  .s_01 {
+    font-size: 4vw;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .monthly {
+    height: 35vh;
+    margin-top: 10vh;
+    border-radius: 22px;
+    width: 89vw;
+  }
+
+  .annualy {
+    height: 36vh;
+    margin-top: 10vh;
+    border-radius: 22px;
+    width: 89vw;
+  }
+
+  h3 {
+    font-size: 7vw;
+  }
+
+  .pencil {
+    font-size: 15vw;
+  }
+
+  .pen {
+    font-size: 7vw;
+  }
+
+  .tri {
+    margin-left: 6vw;
+    font-size: 5vw;
+  }
+
+  .btn_04 {
+    width: 81vw;
+    height: 5vh;
+    margin-top: 3vh;
+  }
+
+  .bg {
+    height: 7vh;
+  }
+
+  .plan {
+    margin-left: 7vw;
+  }
+}
